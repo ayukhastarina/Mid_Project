@@ -273,7 +273,7 @@ p {
   margin-right: 0;
   margin-left: 10px; 
 }
-
+/*boxemail*/
 .boxemail { 
   position: relative;
   margin-right: 60px;
@@ -337,7 +337,6 @@ p {
   width: 727px;
 } 
 
-.
 
 input { 
   margin: 0; 
@@ -375,9 +374,11 @@ button {
   text-transform: none;
 } 
 
-[type="submit"],button { 
+[type="submit"],
+button {
   -webkit-appearance: button;
-} 
+  appearance: button;
+}
 
 .boxemail form button  { 
   background: #db0d15; 
