@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: proxima-nova,sans-serif; 
+  overflow-x: hidden;
+} 
+
+
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 100px; /* Mengurangi jarak margin kiri */
+  margin-right: 100px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; /* Pusatkan vertikal */
+  flex: 1; /* Biarkan menu mengisi ruang tersedia */
+  justify-content: center; /* Pusatkan horizontal */
+  margin-right: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white; /* Warna teks awal */
+  font-weight: bold;
+  transition: color 0.3s;
+ 
+}
+.tulisan a {
+  margin-right: 20px;
+}
+.nav-links a:hover {
+  color: red; /* Warna saat disentuh */
+}
+.tulisan{
+  margin-right: 50px;
+}
+.icon-m {
+  display: flex;
+  align-items: center; /* Pusatkan vertikal */
+  gap: 20px; /* Jarak antara ikon */
+}
+
+.icon {
+  width: 15px; /* Atur lebar ikon */
+  height: 15px; /* Atur tinggi ikon */
+}
+
+.ContainerVid { 
+  width: 100%; 
+ 
+  margin-right: auto; 
+  margin-left: auto;
+} 
+
+.VideoBox { 
+  
+  height: 100vh; 
+  margin-top: -58px; 
+  min-height: 600px; 
+  overflow: hidden; 
+  padding-bottom: 70px; 
+  padding-top: 70px;
+} 
+
+.videocdpr { 
+  color: #fff; 
+  display: block; 
+  font-family: proxima-nova-condensed,sans-serif; 
+  font-size: 30px; 
+  font-weight: 800; 
+  letter-spacing: 5px; 
+  line-height: 41px; 
+  margin: 0 auto; 
+  padding-top: 170px; 
+  position: relative; 
+  text-align: center; 
+  text-transform: uppercase; 
+  width: 100%;
+  padding-bottom: 50px;
+} 
+
+.VideoBox video  { 
+  bottom: 0; 
+  display: block; 
+  height: 100vh; 
+  left: 0; 
+  object-fit: cover; 
+  object-position: center center; 
+  position: absolute; 
+  right: 0; 
+  top: 60px; 
+  -webkit-transform: translateZ(0); 
+  transform: translateZ(0); 
+  width: 100%; 
+  z-index: -1;
+} 
+ /*artikel*/
+ 
+.container-artikel { 
+  width: 100%;  
+  margin-right: auto; 
+  margin-left: auto;
+} 
+
+@media (min-width: 576px){ 
+.container-artikel { 
+  max-width: 540px;
+} 
+}     
+
+@media (min-width: 768px){ 
+.container-artikel { 
+  max-width: 720px;
+} 
+}     
+
+@media (min-width: 992px){ 
+.container-artikel { 
+  max-width: 10000px;
+} 
+}     
+ 
+
+#article { 
+  margin-top: 20px; 
+  padding-top: 30px;
+} 
+
+@media (min-width: 768px){ 
+.colm-artikel { 
+  flex: 0 0 auto; 
+  width: 50%;
+} 
+}     
+
+.overlay-01 { 
+  position: relative;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+} 
+
+.content-artikel { 
+  margin-top: 35px; 
+  padding: 0 10px;
+} 
+
+.overlay-01 img  { 
+  width: 550px;
+  height: auto;
+} 
+
+.overlay-02 { 
+  align-items: center; 
+  -webkit-align-items: center; 
+  background: rgba(0,0,0,.4); 
+  display: flex; 
+  height: 100%; 
+  justify-content: center; 
+  -webkit-justify-content: center; 
+  position: absolute; 
+  top: 0; 
+  width: 550px;
+} 
+
+@media (min-width: 768px){ 
+.colm { 
+  flex: 0 0 auto; 
+  width: 41.66666667%;
+} 
+}     
+
+.title { 
+  color: #171717; 
+  font-family: proxima-nova-extra-condensed,sans-serif; 
+  font-size: 20px;
+  font-weight: 800; 
+  line-height: 20px; 
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 0;
+} 
+
+@media (min-width: 768px){ 
+.text01 { 
+  flex: 0 0 auto; 
+  width: 58.33333333%;
+} 
+}     
+
+.captionsmall { 
+  font-size: 15px; 
+  line-height: 25px;
+  padding-right: 20px;
+  
+} 
+
+.box-artikel .overlay-03  { 
+  -webkit-text-stroke: 2px #fff; 
+  color: transparent; 
+  font-family: proxima-nova-extra-condensed,sans-serif; 
+  font-size: 70px; 
+  font-weight: 800; 
+  text-align: center;
+} 
+
+.title .caption-red  { 
+  color: #db0d15!important;
+  font-size: 20px;
+  
+} 
+
+p { 
+  margin-top: 0; 
+  margin-bottom: 1rem;
+} 
+
+p { 
+  margin: 0;
+} 
+
+.box-artikel .overlay-link  { 
+  align-items: center; 
+  -webkit-align-items: center; 
+  border: 2px solid #db0d15; 
+  border-radius: 99px; 
+  color: #fff; 
+  cursor: pointer; 
+  display: inline-flex; 
+  font-family: proxima-nova-condensed,sans-serif; 
+  font-size: 16px; 
+  font-weight: 700; 
+  height: 45px; 
+  justify-content: center; 
+  margin: 0 10px; 
+  text-transform: uppercase; 
+  transition: all .3s; 
+  width: 160px;
+  text-decoration: none;
+  padding: 10px;
+} 
+
+.box-artikel .overlay-link:hover { 
+  background: #db0d15;
+} 
+
+.gallery-btn, .box-nso .overlay-link:hover { 
+  background: #db0d15;
+} 
+.row-artikel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-right: 0;
+  margin-left: 10px; 
+}
+
+.boxemail { 
+  position: relative;
+  margin-right: 60px;
+  margin-left: 70px;
+  margin-top: 70px;
+} 
+
+.boxemail { 
+  background: #171717; 
+  color: #fff; 
+  padding: 30px 0 50px; 
+  text-align: center;
+} 
+
+*,:after,:before { 
+  box-sizing: border-box;
+} 
+
+
+
+.logo-vurung { 
+  position: absolute; 
+  right: -50px; 
+  top: 50%; 
+  transform: translateY(-50%);
+} 
+
+.title-box { 
+  font-family: proxima-nova-extra-condensed,sans-serif; 
+  font-size: 55px; 
+  font-weight: 700; 
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-top: 20px;
+} 
+
+.caption-mail { 
+  color: #ffffff4d; 
+  font-family: proxima-nova-condensed,sans-serif; 
+  font-size: 25px; 
+  font-weight: 300; 
+  line-height: 0px; 
+  margin-bottom: 40px; 
+  position: relative;
+} 
+
+.caption-mail:after { 
+  background: #fff; 
+  content: ""; 
+  display: block; 
+  height: 3px; 
+  margin: 40px auto 0; 
+  width: 45px;
+} 
+
+.boxemail form  { 
+  margin: 0 auto!important; 
+  position: relative; 
+  width: 727px;
+} 
+
+.
+
+input { 
+  margin: 0; 
+  font-family: inherit; 
+  font-size: inherit; 
+  line-height: inherit;
+} 
+
+.boxemail form input[type="email"]  { 
+  border: 0; 
+  border-radius: 99px; 
+  font-family: proxima-nova-condensed,sans-serif; 
+  font-size: 16px; 
+  height: 60px; 
+  padding: 30px; 
+  width: 100%;
+} 
+
+.boxemail form input[type="email"]:focus  { 
+  outline: none;
+} 
+
+button { 
+  border-radius: 0;
+} 
+
+button { 
+  margin: 0; 
+  font-family: inherit; 
+  font-size: inherit; 
+  line-height: inherit;
+} 
+
+button { 
+  text-transform: none;
+} 
+
+[type="submit"],button { 
+  -webkit-appearance: button;
+} 
+
+.boxemail form button  { 
+  background: #db0d15; 
+  border: 2px solid transparent; 
+  border-radius: 99px; 
+  color: #fff; 
+  font-family: proxima-nova-extra-condensed,sans-serif; 
+  font-size: 17px; 
+  font-weight: 800; 
+  height: 50px; 
+  position: absolute; 
+  right: 6px; 
+  text-transform: uppercase; 
+  top: 5px; 
+  transition: .4s; 
+  width: 225px;
+} 
+
+[type="submit"]:not(:disabled),button:not(:disabled) { 
+  cursor: pointer;
+} 
+
+.boxemail form button:hover { 
+  background: #fff; 
+  border-color: #db0d15; 
+  color: #db0d15;
+} 
+
