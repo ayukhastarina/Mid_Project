@@ -1,291 +1,106 @@
 body {
   margin: 0;
-}  
-
-*,:after,:before { 
-    box-sizing: border-box;
-} 
-
-* { 
-  box-sizing: border-box;
+  padding: 0;
   font-family: sans-serif;
-} 
-
-.boxemail { 
-  position: relative;
-  margin-right: 60px;
-  margin-left: 70px;
-  margin-top: 70px;
-  margin-bottom: 20px;
-} 
-
-.boxemail { 
-  background: #171717; 
-  color: #fff; 
-  padding: 30px 0 50px; 
-  text-align: center;
-} 
-
-*,:after,:before { 
-  box-sizing: border-box;
-} 
-
-
-.title-box { 
-  font-family: proxima-nova-extra-condensed,sans-serif; 
-  font-size: 55px; 
-  font-weight: 700; 
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  margin-top: 20px;
-} 
-
-.caption-mail { 
-  color: #ffffff4d; 
-  font-family: proxima-nova-condensed,sans-serif; 
-  font-size: 25px; 
-  font-weight: 300; 
-  line-height: 0px; 
-  margin-bottom: 40px; 
-  position: relative;
-} 
-
-.caption-mail:after { 
-  background: #fff; 
-  content: ""; 
-  display: block; 
-  height: 3px; 
-  margin: 40px auto 0; 
-  width: 45px;
-} 
-
-.boxemail form  { 
-  margin: 0 auto!important; 
-  position: relative; 
-  width: 727px;
-} 
-
-
-input { 
-  margin: 0; 
-  font-family: inherit; 
-  font-size: inherit; 
-  line-height: inherit;
-} 
-
-
-button { 
-  border-radius: 0;
-} 
-
-button { 
-  margin: 0; 
-  font-family: inherit; 
-  font-size: inherit; 
-  line-height: inherit;
-} 
-
-button { 
-  text-transform: none;
-} 
-
-[type="submit"],
-button {
-  -webkit-appearance: button;
-  appearance: button;
+  background: url(Image/Banner_Zhee_Border.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-
-[type="submit"]:not(:disabled),button:not(:disabled) { 
-  cursor: pointer;
-} 
-
-.boxemail form button:hover { 
-  background: #fff; 
-  border-color: #db0d15; 
-  color: #db0d15;
-} 
-
-.boxemail form input[type="text"]  { 
-  border: 0; 
-  border-radius: 99px; 
-  font-family: proxima-nova-condensed,sans-serif; 
-  font-size: 16px; 
-  height: 60px; 
-  padding: 30px; 
-  width: 100%;
-} 
-
-.boxemail form input[type="text"]:focus  { 
-  outline: none;
-} 
-.boxemail form input[type="password"]  { 
-  border: 0; 
-  border-radius: 99px; 
-  font-family: proxima-nova-condensed,sans-serif; 
-  font-size: 16px; 
-  height: 60px; 
-  padding: 30px; 
-  width: 100%;
-} 
-
-.boxemail form input[type="password"]:focus  { 
-  outline: none;
-} 
-
-/*gender*/
-
-.wrapper {
-  margin-top: 30px;
-  display: inline-flex;
-  background: #fff;
-  height: 60px;
-  width: 400px;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 99px;
-  padding: 20px 15px;
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
-}
-
-.wrapper .option {
-  background: #fff;
-  height: 40px;
-  width: 100%;
+.biodata-wrapper {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 0 10px;
-  border-radius: 99px;
-  cursor: pointer;
-  padding: 0 10px;
-  border: 2px solid lightgrey;
-  transition: all 0.3s ease;
+  height: 100vh;
+  padding: 20px;
+  background: rgba(101, 21, 4, 0.724);
 }
 
-.wrapper .option .dot {
-  height: 20px;
-  width: 20px;
-  background: #d9d9d9;
-  border-radius: 50%;
-  position: relative;
-}
-
-.wrapper .option .dot::before {
-  position: absolute;
-  content: "";
-  top: 4px;
-  left: 4px;
-  width: 12px;
-  height: 12px;
-  background: #FF2C00;
-  border-radius: 50%;
-  opacity: 0;
-  transform: scale(1.5);
-  transition: all 0.3s ease;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-#option-1:checked ~ .option-1,
-#option-2:checked ~ .option-2 {
-  border-color: #FF2C00;
-  background: #FF2C00;
-}
-
-#option-1:checked ~ .option-1 .dot,
-#option-2:checked ~ .option-2 .dot {
-  background: #fff;
-}
-
-#option-1:checked ~ .option-1 .dot::before,
-#option-2:checked ~ .option-2 .dot::before {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.wrapper .option span {
-  font-size: 20px;
-  color: #808080;
-}
-
-#option-1:checked ~ .option-1 span,
-#option-2:checked ~ .option-2 span {
-  color: #fff;
-}
-/*religion*/
-
-select {
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 16px;
-  height: 60px;
-  border-radius: 99px;
-  width: 250px;
-  background-color: #fff;
-  color: #333;
-}
-
-/* Style for select box options */
-select option {
-  color: #000;
-  border-radius: 99px; /* Set the border radius to 99px */
-}
-
-/* Style for the textarea */
-textarea {
-      padding: 30px;
-      border: 2px solid #000;
-      border-radius: 50px;
-      font-size: 16px;
-}
-
-.hobbies-list {
-  margin-top: 20px;
-  list-style: none;
-  font-size: 16px;
-  background-color: #fff;
-  display: flex; /* Display list items horizontally */
-  border: 2px solid #000;
-  border-radius: 50px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  height: 80px; 
-  padding: 20px; 
-  width: 100%;
-  color: #171717;
-}
-
-/* Style for each hobby item */
-.hobby-item {
-  margin-left: 20px;
+.profile-pic {
   margin-right: 20px;
-  margin-bottom: 20px;
-   /* Add spacing between items */
 }
 
-/* Style for checkboxes */
-.hobby-checkbox {
-  margin-right: 5px;
+.profile-pic img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.boxemail form button  { 
-  background: #db0d15; 
-  border: 2px solid transparent; 
-  border-radius: 99px; 
-  color: #fff; 
-  font-family: proxima-nova-extra-condensed,sans-serif; 
-  font-size: 17px; 
-  font-weight: 800; 
-  height: 50px; 
-  right: 6px; 
-  text-transform: uppercase; 
-  top: 5px; 
-  transition: .4s; 
-  width: 225px;
-  margin-top: 20px;
-} 
+.biodata h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
 
+.biodata p {
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*audio*/
+button {
+  height: 17px;
+  width: 17px;
+  padding-right: 10px;
+
+}
+.tombol {
+  display: inline-block;
+  vertical-align: middle;
+}
+ /*porto*/
+
+ /* Portfolio styles */
+
+.portfolio {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(101, 21, 4, 0.724);
+  
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  flex: 0 0 calc(50% - 10px); /* Adjust the width as needed and consider margins */
+  margin: 5px;
+  align-items: center; /* Vertically center the items */
+}
+
+
+.portfolio-item img {
+  max-width: 100%;
+
+}
+ 
+h1 {
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+}
+h2 { 
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  background: rgba(101, 21, 4, 0.724);
+  padding: 0;
+  margin: 0;
+}

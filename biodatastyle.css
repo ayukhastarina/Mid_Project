@@ -1,10 +1,4 @@
-@font-face { 
-    font-family:"proxima-nova";
-    src:url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=e6066692ab328d1a92bb155659ed6609b693e1e352f0e8982e4224719b13bdfb&fvd=n7&v=3") format("opentype");
-  
-  }
-  
-  body {
+ body {
     margin: 0;
     padding: 0;
     font-family: proxima-nova,sans-serif; 
@@ -61,3 +55,122 @@
   }
 
   /*navbar*/
+
+  /*bio*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(Image/Banner_Zhee_Border.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .biodata-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background: rgba(101, 21, 4, 0.724);
+  }
+  
+  .profile-pic {
+    margin-right: 20px;
+  }
+  
+  .profile-pic img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .biodata h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  .biodata p {
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  /*audio*/
+  button {
+    height: 17px;
+    width: 17px;
+    padding-right: 10px;
+  
+  }
+  .tombol {
+    display: inline-block;
+    vertical-align: middle;
+  }
+   /*porto*/
+  
+   /* Portfolio styles */
+  
+  .portfolio {
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background: rgba(101, 21, 4, 0.724);
+    
+  }
+  
+  .portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-item {
+    flex: 0 0 calc(50% - 10px); /* Adjust the width as needed and consider margins */
+    margin: 5px;
+    align-items: center; /* Vertically center the items */
+  }
+  
+  
+  .portfolio-item img {
+    max-width: 100%;
+  
+  }
+   
+  h1 {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+  }
+  h2 { 
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    background: rgba(101, 21, 4, 0.724);
+    padding: 0;
+    margin: 0;
+  }
+
+  h3 { 
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    background: rgba(101, 21, 4, 0.724);
+    padding: 0;
+    margin: 0;
+  }
